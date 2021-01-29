@@ -23,7 +23,7 @@ module.exports = (env) => {
         },
         {
           test: /\.(ts|tsx)$/,
-          loader: "awesome-typescript-loader",
+          loader: "ts-loader",
         },
         {
           test: /\.m?\js$/,
